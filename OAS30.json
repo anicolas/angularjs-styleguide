@@ -1,0 +1,23 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "Wafiwaf",
+    "description" : "No description",
+    "contact" : { },
+    "version" : "1.0.0"
+  },
+  "security" : [ {
+    "OpenID Connect" : [ ]
+  } ],
+  "paths" : {
+    "/glou" : { }
+  },
+  "components" : {
+    "securitySchemes" : {
+      "OpenID Connect" : {
+        "type" : "openIdConnect",
+        "openIdConnectUrl" : "http://perdu.com"
+      }
+    }
+  }
+}
